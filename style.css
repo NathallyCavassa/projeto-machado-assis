@@ -1,0 +1,100 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+/* 
+#E063D8
+#3832EF
+#75F0E3
+#0809FA
+#5265FA
+*/
+:root{--rosa1:#E063D8;
+    --roxo:#3832EF;
+    --rosa2:#D878E0;
+    --azuyl2:#0809FA;
+    --roxo2:#5265FA;
+}
+
+*{margin:0;
+ padding:0;}
+ body{background-color:var(--rosa2);
+font-family:'roboto',sans-serif;
+
+}
+
+
+
+header{
+    background-image: linear-gradient(to bottom,var(--roxo2),var(--rosa1));/*(direção, a 1ª cor, 2ª cor)*/ min-height: 150px;
+    min-height: 130px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+header > h1{ 
+    color: black;
+    font-weight: 900px;/*peso da fonte,espessura do negrito*/
+    margin-bottom:20px;/*espaço ate proximo elemento,no caso inferior*/
+}
+
+header > p{ 
+    color:var(--roxo);
+
+
+}
+nav>a{
+color: black;
+padding: 30px;
+text-decoration: none;
+font-weight: bold;
+border-radius: 5px;
+transition-duration: 0.5;
+}
+
+nav>a:hover{
+background-color: var(--roxo);
+color: var(--rosa1);
+
+
+}
+main{
+background-color: aliceblue;
+min-width:320px ;
+max-width: 1000px;
+margin: auto;/*centralizar elemento*/
+margin-top: 30px;
+padding: 25px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius:10px;
+box-shadow: 3px 2px 5px 0px;
+text-align: center;
+
+}
+
+main h2{
+background-image:linear-gradient(to right,var(--rosa),transparent);
+text-align:center;
+
+}
+
+main p{
+font-size:18px;
+text-align: justify;
+text-indent: 40px;
+margin: 15px 0px;
+
+line-height: 1.5em;
+}
+
+img{
+width:80% ;
+border:10px double black;
+}
+
+figcaption{
+font-size: 12px;
+}
+
+aside{
+background-color: ;
+}
